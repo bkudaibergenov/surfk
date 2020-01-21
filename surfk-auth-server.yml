@@ -13,3 +13,5 @@ spring:
     user:
         datasource:
             driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+test:
+    test: hello world
