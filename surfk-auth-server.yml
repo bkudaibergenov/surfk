@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        password: admin123
+        url: jdbc:sqlserver://localhost;DatabaseName=fdb
+        username: sa
+        validationQuery: SELECT 1
+    jpa:
+        database-platform: org.hibernate.dialect.SQLServer2012Dialect
+        hibernate:
+            dialect: org.hibernate.dialect.SQLServer2012Dialect
+        show-sql: true
+    user:
+        datasource:
+            driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
