@@ -1,2 +1,15 @@
-test:
-    text: hello world
+spring:
+    datasource:
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        password: d5+RT6_76GTr.9/dE5
+        url: jdbc:sqlserver://10.10.102.7;DatabaseName=fdb;
+        username: sa
+        validationQuery: SELECT 1
+    jpa:
+        database-platform: org.hibernate.dialect.SQLServer2012Dialect
+        hibernate:
+            dialect: org.hibernate.dialect.SQLServer2012Dialect
+        show-sql: true
+    user:
+        datasource:
+            driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver  
