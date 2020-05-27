@@ -1,7 +1,7 @@
 spring:
     datasource:
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-        password: admin123
+        password: Admin123
         url: jdbc:sqlserver://localhost;DatabaseName=fdb
         username: sa
         validationQuery: SELECT 1
